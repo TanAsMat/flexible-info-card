@@ -9,11 +9,20 @@ html {
   box-sizing: inherit;
 }
 
-section {
+body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: .5rem, 1rem, 6rem, 2rem;
   margin: 1.5rem;
+}
+
+section {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #000;
 }
 
 h2 {
@@ -21,6 +30,20 @@ h2 {
   color: #000;
 }
 
-ul {
+h3 {
+  font-size: 16rem;
+}
 
+h4 {
+  font-size: 16rem;
+}
+
+p {
+  font-size: 5rem;
+}
+
+a {
+  font-size: 5rem;
+  color: #ccc;
+  background-color: #444
 }
