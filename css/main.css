@@ -18,11 +18,17 @@ body {
 }
 
 section {
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   color: #000;
+}
+
+section li {
+  display: flex;
+  justify-content: space-around;
+  width: 24rem, 16rem, 5rem;
+  margin: 1.5rem;
 }
 
 h2 {
