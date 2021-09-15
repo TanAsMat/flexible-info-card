@@ -29,11 +29,11 @@ p {
 a {
   font-size: 5rem;
   color: #ccc;
-  background-color: #444
+  background-color: #444;
 }
 
 body {
-  margin: 1.5rem;
+  margin: 0;
   padding: 2rem;
 
   display: flex;
