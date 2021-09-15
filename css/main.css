@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: grey;
+  background-color: #ccc;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
@@ -12,6 +12,8 @@ html {
 h2 {
   font-size: 7rem;
   color: #000;
+
+  display: flex;
 }
 
 h3 {
@@ -30,6 +32,8 @@ a {
   font-size: 5rem;
   color: #ccc;
   background-color: #444;
+  padding: .5rem .9rem;
+  text-decoration: none;
 }
 
 body {
@@ -63,6 +67,12 @@ li {
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
+}
+
+img {
+  display: flex;
+  flex-direction: row;
+  width: 10%;
 }
 
 img + hgroup {
